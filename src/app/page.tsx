@@ -25,13 +25,15 @@ export default function Home() {
               </Link>
             </div>
           </header>
-          <div className="flex flex-col items-center justify-center pt-32 ">
-            <h1 className="text-2xl text-gray-600">Hi, Am Jukunye</h1>
-            <p className="text-center text-3xl  md:text-4xl font-bold text-gray-600">
+          <div className="flex flex-col items-center justify-center pt-16 sm:pt-32 ">
+            <h1 className="text-lg sm:text-2xl text-gray-600">
+              Hi, Am Jukunye
+            </h1>
+            <p className="text-center text-2xl sm:text-3xl  md:text-4xl font-bold text-gray-600">
               A <span className="text-emerald-600">Full stack developer</span>{" "}
               in the making.
             </p>
-            <p className="mt-3 text-center text-2xl  md:text-3xl font-semibold text-gray-600">
+            <p className="mt-6 sm:mt-3 sm:text-center text-lg sm:text-2xl  md:text-3xl font-semibold text-gray-600">
               Let&apos;s transform the idea to Software.
             </p>
           </div>
@@ -67,9 +69,8 @@ export default function Home() {
               </svg>
             </a>
           </div>
-          <p className="text-center text-emerald-600 mt-80 text-sm">
-            I am currently in the process of building it, so please check back
-            soon for more information about me.
+          <p className="text-center text-emerald-600 mt-72 sm:mt-80 font-light text-sm">
+            Please check back soon for more information about me.
           </p>
         </div>
       </div>
